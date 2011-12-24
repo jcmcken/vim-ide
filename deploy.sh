@@ -1,5 +1,7 @@
 #!/bin/bash
 
+./get_modules.sh
+
 echo " .. deploying '.vimrc'"
 cp dotvimrc ~/.vimrc
 echo " .. deploying '.gvimrc'"
