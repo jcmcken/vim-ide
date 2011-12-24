@@ -1,0 +1,53 @@
+" pathogen -- vim plugin bundler
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" colors
+colorscheme wombat
+
+" spacing
+set ts=4
+set et
+set sw=4
+
+" folding
+set foldmethod=indent
+set foldlevel=99
+
+" task list
+map <leader>td <Plug>TaskList
+
+" gundo -- revision history
+map <leader>g :GundoToggle<CR>
+
+" highlighting
+syntax on " syntax highlighting
+filetype on " try to detect filetypes
+filetype plugin indent on " enable loading indent file for filetype
+
+" pyflakes -- python syntax checking
+let g:pyflakes_use_quickfix = 0
+
+" pep8 checker
+let g:pep8_map='<leader>8'
+
+" supertab -- tab completion
+au  FileType python set omnifunc=pythoncomplete#Complete
+let g:SupereTabDefaultCompletionType = "context"
+set completeopt=menuone,longest,preview
+
+" nerdtree -- file browser
+map <leader>n :NERDTreeToggle<CR>
+
+" ropevim -- for refactoring
+map <leader>j :RopeGotoDefinition<CR>
+map <leader>r :RopeRename<CR>
+
+" ack -- searching
+nmap <leader>a <Esc>:Ack!
+
+" fugitive -- git integration
+set statusline+=%{fugitive#statusline()}
+
+

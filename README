@@ -1,0 +1,15 @@
+
+Intro
+-----
+
+My personal vim/gvim setup.
+
+Run ``deploy.sh`` to deploy to the current user's home directory:
+ 
+   * dotvim/ -> ~/.vim/
+   * dotvimrc -> ~/.vimrc
+   * dotgvimrc -> ~/.gvimrc
+
+The ``get_modules.sh`` script sets up some vim plugins as submodules to this repo (based on the very good write-up @ http://sontek.net/turning-vim-into-a-modern-python-ide).
+
+

@@ -1,0 +1,48 @@
+[submodule "dotvim/bundle/fugitive"]
+	path = dotvim/bundle/fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+[submodule "dotvim/bundle/snipmate"]
+	path = dotvim/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "dotvim/bundle/surround"]
+	path = dotvim/bundle/surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "dotvim/bundle/git"]
+	path = dotvim/bundle/git
+	url = https://github.com/tpope/vim-git.git
+[submodule "dotvim/bundle/supertab"]
+	path = dotvim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "dotvim/bundle/minibufexpl"]
+	path = dotvim/bundle/minibufexpl
+	url = https://github.com/sontek/minibufexpl.vim.git
+[submodule "dotvim/bundle/pyflakes-pathogen"]
+	path = dotvim/bundle/pyflakes-pathogen
+	url = https://github.com/mitechie/pyflakes-pathogen.git
+[submodule "dotvim/bundle/ack"]
+	path = dotvim/bundle/ack
+	url = https://github.com/mileszs/ack.vim.git
+[submodule "dotvim/bundle/gundo"]
+	path = dotvim/bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "dotvim/bundle/pydoc"]
+	path = dotvim/bundle/pydoc
+	url = https://github.com/fs111/pydoc.vim.git
+[submodule "dotvim/bundle/pep8"]
+	path = dotvim/bundle/pep8
+	url = https://github.com/vim-scripts/pep8.git
+[submodule "dotvim/bundle/py.test"]
+	path = dotvim/bundle/py.test
+	url = https://github.com/alfredodeza/pytest.vim.git
+[submodule "dotvim/bundle/makegreen"]
+	path = dotvim/bundle/makegreen
+	url = https://github.com/reinh/vim-makegreen
+[submodule "dotvim/bundle/tasklist"]
+	path = dotvim/bundle/tasklist
+	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "dotvim/bundle/nerdtree"]
+	path = dotvim/bundle/nerdtree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "dotvim/bundle/ropevim"]
+	path = dotvim/bundle/ropevim
+	url = https://github.com/sontek/rope-vim.git
